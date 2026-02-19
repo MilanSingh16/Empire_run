@@ -1,0 +1,69 @@
+3.                   ;INCIDENT ENERGY (IN LAB)
+15.   7.             ;TARGET  A , Z 
+ 1.     1.           ;PROJECTILE A, Z
+1                    ;NUMBER OF NEUTRONS  TO BE EMITTED
+0                    ;NUMBER OF PROTONS   TO BE EMITTED
+0                    ;NUMBER OF ALPHAS    TO BE EMITTED
+0                    ;NUMBER OF DEUTERONS TO BE EMITTED
+0                    ;NUMBER OF TRITONS   TO BE EMITTED
+0                    ;NUMBER OF He-3      TO BE EMITTED
+0  0. 0.             ; reserved
+IOUT       3.                          
+FHMS       3.
+HRTW       0.
+LEVDEN     0.                         !EMPIRE NLD (EGSM RIPL-3) as default
+NEX        50.                        !Number of points in the outgoing energy grid
+*ENDF      0. 
+PCROSS     2. 
+DIRECT     3.                         
+DIRPOT     4016.
+OMPOT     -4016.    2
+OMPOT     -16.       1
+FITOMP    1
+*Real Volume Potential 
+FITRVV     xxxx      xxxx     1  ! Depth of the real volume potential ($V_v$)
+FITRVR     xxxx      xxxx     1  ! Radius of the real volume potential ($r_v$)
+FITRVA     xxxx      xxxx     1  ! Diffuseness of the real volume potential ($a_v$)
+FITRVD     xxxx      xxxx     1  ! Energy dependence coefficient for the real depth
+*Imaginary Surface Potential 
+FITISV     xxxx      xxxx     1  !  Depth of the imaginary surface potential ($W_d$ or $W_s$)
+FITISR     xxxx      xxxx     1  ! Radius of the imaginary surface potential ($r_d$)
+FITISA     xxxx      xxxx     1  ! Diffuseness of the imaginary surface potential ($a_d$)
+FITISD     xxxx      xxxx     1  ! Energy dependence for the imaginary surface depth
+*Imaginary Volume Potential 
+FITIVV     xxxx      xxxx     1  ! Depth of the imaginary volume potential ($W_v$)
+FITIVR     xxxx      xxxx     1  ! Radius of the imaginary volume potential ($r_{iv}$)
+FITIVA     xxxx      xxxx     1  ! Diffuseness of the imaginary volume potential ($a_{iv}$)
+FITIVD     xxxx      xxxx     1  ! Energy dependence for the imaginary volume depth
+*Spin-Orbital Potential
+FITORV     xxxx      xxxx     1  ! Depth of the spin-orbit potential ($V_{so}$)
+FITORR     xxxx      xxxx     1  ! Radius of the spin-orbit potential ($r_{so}$)
+FITORA     xxxx      xxxx     1  ! Diffuseness of the spin-orbit potential ($a_{so}$)
+FITORD     xxxx      xxxx     1  !Energy dependence for the spin-orbit potential
+*Deformation Parameter
+FITDEF     yy        yy       2       ! Used for Coupled-Channels calculations to adjust the deformation parameters      
+RECOIL     1.                         !No recoils are calculated. Sizeable speed-up if no ENDF file is required
+GO                                                  
+@ Running title may be given in any line starting with @ 
+4.
+5.
+6.
+7.
+8.
+9
+10.
+11.
+12.
+14.
+16.
+18.
+20.
+21.31
+21.33
+23.26
+25.29
+28.
+30.
+-1.
+*
+* 
