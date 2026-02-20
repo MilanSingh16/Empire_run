@@ -1,0 +1,12 @@
+Simulations/
+__pycache__/
+*.pyc
+*.log
+*.out
+*.lst
+*.err
+INPUT.DAT
+OUTPUT.DAT
+LIST.DAT
+extracted_production_cross_sections.csv
+plot.png
